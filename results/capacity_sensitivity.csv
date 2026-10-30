@@ -1,0 +1,8 @@
+capacity,status,distance,peak_load,verified_exhaustively
+2.0,infeasible,,,True
+3.0,optimal,45.8285718627053,3.0,True
+4.0,optimal,45.325240143203786,4.0,True
+5.0,optimal,39.17574293521718,5.0,True
+6.0,optimal,39.17574293521718,5.0,True
+7.0,optimal,39.17574293521718,5.0,True
+8.0,optimal,39.17574293521718,5.0,True

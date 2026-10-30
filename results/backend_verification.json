@@ -1,0 +1,43 @@
+{
+  "verified_on": "2026-10-30",
+  "gurobi_version": "13.0.1",
+  "solution": {
+    "solver": "gurobi",
+    "status": "optimal",
+    "message": "Gurobi status code 2",
+    "route": [
+      0,
+      4,
+      1,
+      5,
+      2,
+      6,
+      3,
+      7,
+      8,
+      0
+    ],
+    "distance": 39.17574293521718,
+    "loads": [
+      0.0,
+      1.0,
+      3.0,
+      2.0,
+      5.0,
+      2.0,
+      4.0,
+      2.0,
+      0.0,
+      0.0
+    ],
+    "peak_load": 5.0,
+    "capacity": 5.0,
+    "feasible": true,
+    "dual_bound": 39.17574293521718,
+    "relative_gap": 0.0,
+    "variables": 89,
+    "constraints": 222
+  },
+  "exhaustive_distance": 39.17574293521718,
+  "same_distance_within_1e-6": true
+}

@@ -1,0 +1,4 @@
+# Exact versions used for the committed HiGHS experiment (Python 3.12).
+numpy==2.3.5
+scipy==1.17.0
+matplotlib==3.10.8

@@ -1,0 +1,26 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "solver": "highs",
+  "instance_sha256": "e3be0272217210e0edc917a8b38b9eb59f99d5fe915f9299e47289e272383f8a",
+  "effective_capacity": 5.0,
+  "command_arguments": {
+    "instance": "data/four_requests.json",
+    "solver": "highs",
+    "capacity": null,
+    "time_limit": 60.0,
+    "verify": true,
+    "sensitivity": [
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0
+    ],
+    "output": "results"
+  }
+}

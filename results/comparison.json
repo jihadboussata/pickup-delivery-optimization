@@ -1,0 +1,68 @@
+{
+  "nearest_feasible": {
+    "route": [
+      0,
+      1,
+      2,
+      6,
+      3,
+      7,
+      8,
+      4,
+      5,
+      0
+    ],
+    "distance": 43.17184616039729,
+    "loads": [
+      0.0,
+      2.0,
+      5.0,
+      2.0,
+      4.0,
+      2.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "peak_load": 5.0,
+    "capacity": 5.0,
+    "feasible": true
+  },
+  "distance_reduction_vs_greedy_percent": 9.25627134483269,
+  "exhaustive": {
+    "permutations_checked": 40320,
+    "feasible_routes": 864,
+    "best": {
+      "route": [
+        0,
+        4,
+        1,
+        5,
+        2,
+        6,
+        3,
+        7,
+        8,
+        0
+      ],
+      "distance": 39.17574293521718,
+      "loads": [
+        0.0,
+        1.0,
+        3.0,
+        2.0,
+        5.0,
+        2.0,
+        4.0,
+        2.0,
+        0.0,
+        0.0
+      ],
+      "peak_load": 5.0,
+      "capacity": 5.0,
+      "feasible": true
+    }
+  },
+  "matches_exhaustive_optimum": true
+}

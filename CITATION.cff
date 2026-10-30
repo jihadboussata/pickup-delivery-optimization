@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this project, cite this repository."
+title: "Pickup-and-delivery route optimization"
+authors:
+  - family-names: Boussata
+    given-names: Jihad
+type: software
+version: 1.0.0
+date-released: 2026-10-30
+license: MIT
+repository-code: "https://github.com/jihadboussata/pickup-delivery-optimization"

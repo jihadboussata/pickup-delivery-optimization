@@ -1,0 +1,22 @@
+{
+  "name": "Four-request pickup-and-delivery example",
+  "depot": 0,
+  "capacity": 5,
+  "nodes": [
+    {"id": 0, "x": 0, "y": 0},
+    {"id": 1, "x": 2, "y": 6},
+    {"id": 2, "x": 5, "y": 8},
+    {"id": 3, "x": 8, "y": 5},
+    {"id": 4, "x": 6, "y": 2},
+    {"id": 5, "x": 3, "y": 9},
+    {"id": 6, "x": 9, "y": 9},
+    {"id": 7, "x": 10, "y": 4},
+    {"id": 8, "x": 7, "y": 1}
+  ],
+  "requests": [
+    {"pickup": 1, "delivery": 8, "quantity": 2},
+    {"pickup": 2, "delivery": 6, "quantity": 3},
+    {"pickup": 3, "delivery": 7, "quantity": 2},
+    {"pickup": 4, "delivery": 5, "quantity": 1}
+  ]
+}

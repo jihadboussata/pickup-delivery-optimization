@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pickup-delivery-optimization"
+version = "1.0.0"
+description = "Verified single-vehicle pickup-and-delivery MILP with HiGHS and Gurobi"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Jihad Boussata"}]
+dependencies = ["numpy>=2.0,<3", "scipy>=1.14,<2", "matplotlib>=3.9,<4"]
+
+[project.optional-dependencies]
+gurobi = ["gurobipy>=13,<14"]
+notebook = ["jupyterlab>=4,<5"]
+
+[project.scripts]
+pickup-delivery = "pickup_delivery.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["pickup_delivery*"]
